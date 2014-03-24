@@ -20,7 +20,7 @@ def main():
 		score = name_value(name) * alpha_position
 		total_scores += score
 		alpha_position += 1
-	print total_scores
+	print(total_scores)
 
 def file_to_string(filename):
 	"""reads a file, returns the contents as a string"""
